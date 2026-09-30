@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "run_day": "2026-09-30",
+  "live_files": {
+    "merged_live": "C:\\Users\\chied\\Downloads\\BGE_Forecast_App_Data_CLEAN\\BGE_Forecast_App_Data\\06_live\\bge_weather_load_merged_live.parquet",
+    "forecast_panel_live": "C:\\Users\\chied\\Downloads\\BGE_Forecast_App_Data_CLEAN\\BGE_Forecast_App_Data\\06_live\\load_forecast_runtime10am_next48h_live.parquet"
+  },
+  "rows": {
+    "da": 203,
+    "rt": 192,
+    "load": 192,
+    "weather": 192,
+    "forecast_panel": 24,
+    "merged_live": 1131
+  },
+  "forecast_predictor_available": true,
+  "proxy_cache_refreshed": false,
+  "proxy_window_days": 7,
+  "proxy_cache_status": null,
+  "message": "Live data update completed. Fresh history was refreshed locally. Fresh next-day load forecast panel is available from load_frcstd_7_day."
+}

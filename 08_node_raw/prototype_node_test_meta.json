@@ -1,0 +1,18 @@
+{
+  "node_id": "49296",
+  "node_name": "WESTPORT Prototype",
+  "da_file": "C:\\Users\\chied\\Downloads\\da2026\\da_hrl_lmps_20260320_1200_20260320_2300_BGE.csv",
+  "rt_file": "C:\\Users\\chied\\Downloads\\rt2026\\rt_hrl_lmps_20260319_1200_20260319_2359_BGE.csv",
+  "da_rows_for_node": 12,
+  "rt_rows_for_node": 12,
+  "da_time_min": "2026-03-20 12:00:00",
+  "da_time_max": "2026-03-20 23:00:00",
+  "rt_time_min": "2026-03-19 12:00:00",
+  "rt_time_max": "2026-03-19 23:00:00",
+  "overlap_hours": 0,
+  "da_sample_output": "C:\\Users\\chied\\Downloads\\BGE_Forecast_App_Data\\08_node_raw\\prototype_node_da_sample.parquet",
+  "rt_sample_output": "C:\\Users\\chied\\Downloads\\BGE_Forecast_App_Data\\08_node_raw\\prototype_node_rt_sample.parquet",
+  "prototype_node_history_output": null,
+  "prototype_node_history_rows": 0,
+  "note": "DA and RT sample files do not overlap in time, so a merged training-ready history was not created. The filtered DA/RT prototype files were saved successfully."
+}

@@ -1,0 +1,14 @@
+{
+  "DA_node_total": {
+    "label": "DA_node_total",
+    "rows": 504,
+    "parquet": "C:\\Users\\chied\\Downloads\\BGE_Forecast_App_Data\\09_node_features\\DA_node_total__ENGINEERED.parquet",
+    "feature_cols_json": "C:\\Users\\chied\\Downloads\\BGE_Forecast_App_Data\\09_node_features\\DA_node_total__feature_cols.json"
+  },
+  "RT_node_total": {
+    "label": "RT_node_total",
+    "rows": 504,
+    "parquet": "C:\\Users\\chied\\Downloads\\BGE_Forecast_App_Data\\09_node_features\\RT_node_total__ENGINEERED.parquet",
+    "feature_cols_json": "C:\\Users\\chied\\Downloads\\BGE_Forecast_App_Data\\09_node_features\\RT_node_total__feature_cols.json"
+  }
+}

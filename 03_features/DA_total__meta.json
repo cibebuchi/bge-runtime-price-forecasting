@@ -1,0 +1,10 @@
+{
+  "target_label": "DA_total",
+  "target_col": "total_da",
+  "n_rows": 504,
+  "n_features": 711,
+  "forecast_col": "load_forecast_mw",
+  "forecast_present_col": "load_forecast_present",
+  "runtime_hour": 10,
+  "horizon_hours": 24
+}

@@ -1,0 +1,16 @@
+{
+  "application": "BGE Runtime-Constrained Price Forecasting",
+  "purpose": "Interactive research demonstration of Day-Ahead and Real-Time BGE electricity price forecasting.",
+  "entry_point": "app.py",
+  "data_directories": {
+    "raw_parquet": "01_raw_parquet",
+    "curated": "02_curated",
+    "features": "03_features",
+    "evaluation": "05_eval",
+    "live": "06_live",
+    "proxy_mae": "07_proxy_mae",
+    "node_raw": "08_node_raw",
+    "node_features": "09_node_features"
+  },
+  "note": "Paths are relative to the application directory. The app is intended for research demonstration, not financial or market decisions."
+}
