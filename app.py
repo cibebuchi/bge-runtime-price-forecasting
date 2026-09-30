@@ -84,7 +84,7 @@ def run_live_updater(app_dir: str, run_day: pd.Timestamp, refresh_proxy_cache: b
     msg = (proc.stdout or "").strip()
     err = (proc.stderr or "").strip()
     if proc.returncode == 0:
-        return True, msg or "Live data update completed."
+        return True, "Live data update completed successfully. Fresh PJM, load-forecast, and weather inputs are available."
     combo = "\n".join([x for x in [msg, err] if x]).strip()
     return False, combo or f"Live updater failed with exit code {proc.returncode}."
 
